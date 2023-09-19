@@ -12,7 +12,9 @@
 @forward "uswds";
 
 html{
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "proxima-nova", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a{
@@ -475,8 +477,12 @@ hr.footer-border{
 
 .usa-footer{
   line-height: 1.4rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "proxima-nova", sans-serif !important;
   font-size: 0.80rem;
+}
+
+.usa-identifier{
+  font-family: "proxima-nova", sans-serif !important;
 }
 
 .footer_side_left, .footer_side_right{
@@ -520,7 +526,7 @@ a.external_link::after{
 .usa-hero{
   background-image: url(../assets/img/aas-home.png);
   height: 500px;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "proxima-nova", sans-serif !important;
 }
 
 .usa-hero__callout{

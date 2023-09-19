@@ -56,24 +56,33 @@ ga:
   # ua: your-ua
 
 # Site Navigation
-primary_navigation:
+
   - name: Home
     url: /
-  - name: Blog
-    url: /blog/
-  - name: Document
-    url: /document/
-  - name: Document with sidenav
-    url: /document-with-sidenav/
-  - name: Document submenu
+  - name: About Us
+    url: /aboutus/
     children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-
+      - name: About Us
+        url: /aboutus/
+      - name: Leadership
+        url: /leadership/
+      - name: Regional Offices
+        url: /regions/
+  - name: Acquisition Process
+    url: /process/
+  - name: ASTRO
+    url: /astro/
+  - name: SBIR/STTR
+    url: /sbir/
+    children:
+      - name: SBIR/STTR
+        url: /sbir/
+      - name: SBIR Events
+        url: /sbirevents/
+  - name: Our Impact
+    url: /impact/
+  - name: Contact Us
+    url: /contact/
 #
 # secondary_navigation:
 #  - name: Secondary link
@@ -90,15 +99,9 @@ searchgov:
 
   # Only change this if you're using a CNAME. Learn more here: https://search.gov/manual/cname.html
   endpoint: https://search.usa.gov
-
-  # Replace this with your search.gov account.
-  affiliate: federalist-uswds-example
-
-  # Replace this with your access key.
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
-
-  # This renders the results within the page instead of sending to user to search.gov.
-  inline: true
+  affiliate: aas.gsa.gov # replace this with your search.gov account
+  access_key: AyBziYr2RLO9TeUxK6V2ScbLsipsCRc6_Cz670YiLJM= 
+  inline: true #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
 
   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
   # If you do not want to present search suggestions, set this value to false.

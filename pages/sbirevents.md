@@ -1,12 +1,9 @@
 ---
-title: SBIR Event
-layout: layouts/wide
+title: SBIR Events
+layout: layouts/page
 permalink: /sbirevents/
 sidenav: false
 ---
 
-{% include sbirevents.html %}
 
-
-
-
+{% include "sbirevents.html" %}

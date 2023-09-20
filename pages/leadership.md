@@ -1,12 +1,9 @@
 ---
-title: OUR LEADERSHIP
-layout: layouts/wide
+title: Leadership
+layout: layouts/page
 permalink: /leadership/
 sidenav: false
 ---
 
-{% include leadership.html %}
 
-
-
-
+{% include "leadership.html" %}

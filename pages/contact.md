@@ -1,8 +1,8 @@
 ---
 title: Contact Us
-layout: layouts/wide
+layout: layouts/page
 permalink: /contact/
 sidenav: false
 ---
 
-{% include contact.html %}
+{% include "contact.html" %}

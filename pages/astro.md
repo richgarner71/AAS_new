@@ -1,8 +1,8 @@
 ---
 title: ASTRO
-layout: layouts/wide
+layout: layouts/page
 permalink: /astro/
 sidenav: false
 ---
 
-{% include astro.html %}
+{% include "astro.html" %}

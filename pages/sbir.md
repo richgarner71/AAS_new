@@ -1,12 +1,9 @@
 ---
 title: SBIR/STTR
-layout: layouts/wide
+layout: layouts/page
 permalink: /sbir/
 sidenav: false
 ---
 
-{% include sbir.html %}
 
-
-
-
+{% include "sbir.html" %}

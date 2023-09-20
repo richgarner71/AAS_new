@@ -1,6 +1,6 @@
 ---
 title: About Us
-layout: layouts/wide
+layout: layouts/page
 permalink: /aboutus/
 sidenav: false
 ---

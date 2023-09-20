@@ -16,6 +16,7 @@ module.exports = function (config) {
   config.addPassthroughCopy('admin');
   config.addPassthroughCopy('css'); 
   config.addPassthroughCopy('assets/img');
+  config.addPassthroughCopy('assets/pdf_docs');
 
   // Copy USWDS init JS so we can load it in HEAD to prevent banner flashing
   config.addPassthroughCopy({'./node_modules/@uswds/uswds/dist/js/uswds-init.js': 'assets/js/uswds-init.js'});

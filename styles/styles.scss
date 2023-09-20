@@ -447,6 +447,10 @@ hr.media-line{
   overflow: visible!important;
 }
 
+.usa-nav__link{
+  font-family: "proxima-nova", sans-serif !important;
+}
+
 .usa-menu-btn{
   padding: 8px;
   margin: 10px;
@@ -463,9 +467,13 @@ hr.media-line{
 	mask: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain;
 }
 
-//overrides dropdown arrow icon
+//overrides default template styels
 .usa-nav__primary button[aria-expanded=false] span::after {
   background: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain !important;
+}
+
+.usa-prose{
+  font-family: "proxima-nova", sans-serif !important;
 }
 
 //Footer styles
@@ -822,7 +830,7 @@ a.external_link::after{
   background-color: var(--aas-orange);
   height: 70px;
   margin-top: 0;
-  padding: 10px
+  padding: 0 10px;
 }
 
 .contactBar h3{
@@ -844,7 +852,7 @@ a.external_link::after{
   z-index: 999;
   padding: 14px;
   height: 196px;
-  top: -201px;
+  top: -203px;
   opacity: 0;
 }
 
@@ -1177,11 +1185,11 @@ a.external_link::after{
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  padding: 15px;
   margin: 20px auto;
   background: white;
   font-size: 4em;
   font-weight: 600;
+  padding: 15px;
 }
 
 
@@ -1702,17 +1710,6 @@ li.input-li{
   font-weight: bold;
 }
 
-/* Clearfix */
-.cf:before,
-.cf:after {
-   content: " "; /* 1 */
-   display: table; /* 2 */
-}
-
-.cf:after {
-   clear: both;
-}
-
 
 //Accordian Sections
 .dark-buttonbar{
@@ -1728,7 +1725,8 @@ li.input-li{
 }
 
 .dark-buttonbar:focus{
-  outline: 0.25rem solid var(--aas-blue);
+  outline: 0.25rem solid var(--aas-blue) !important;
+  z-index: 100;
 }
 
 .dark-buttonbar label{
@@ -1882,7 +1880,6 @@ li.input-li{
     text-align: center;
   }
 
-
  }
 
 .register-link {
@@ -1934,4 +1931,15 @@ li.input-li{
   .paginate-button {
     display: block;
   }
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+   content: " "; /* 1 */
+   display: table; /* 2 */
+}
+
+.cf:after {
+   clear: both;
 }
